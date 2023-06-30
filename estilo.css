@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100%;
+}
+
+#lol{
+    text-align: center;
+    background-color: #347A28;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: #30BF4C;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: rgba(3, 97, 3, 0.849);
+}
+
+#fot{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+
+#band{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+
+#calen{
+    position: relative;
+    left: 9%;
+}
+
+#resl{
+    width: 20%;
+    height: 20%;
+    left: 25%;
+}
+
+.ayuda{
+    text-align: center;
+}
+
+#log{
+    border-radius: 10%;
+    left: 35%
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #estadio{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .sestadio{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+ .dorime{
+    margin-left: 40%;
+    position: relative;
+    align-items: center;
+}
+
